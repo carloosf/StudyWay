@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import SideBar from './components/SideBar'
-
-function App() {
+import SideBarComponent from './components/SideBar'
+const App = () => {
 
   return (
     <div className="App">
-      <SideBar />
+      <SideBarComponent />
+
     </div>
   )
 }

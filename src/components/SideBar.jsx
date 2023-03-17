@@ -1,12 +1,11 @@
 import React from "react";
-import { BiBook, BiLinkAlt } from 'react-icons/bi';
+import { BiBook, BiLinkAlt, BiHomeAlt2 } from 'react-icons/bi';
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-function SideBar() {
+//Estilização
 
-  //Estilização
-
-  const SideBar = styled.ul`
+const SideBar = styled.ul`
   font-size: 1.5rem;
   width: 5vw;
   height: 100vh;
@@ -16,7 +15,7 @@ function SideBar() {
   list-style: none;
   `
 
-  const Icon = styled.li`
+const Icon = styled.li`
   width: 5vw;
   height: 30px;
   color: white;
@@ -36,15 +35,22 @@ function SideBar() {
   }
   `
 
+function SideBarComponent() {
+
   return (
     <SideBar className="SideBar">
 
-      <a href=""><Icon>
+      <Link to="/" ><Icon>
+        <BiHomeAlt2></BiHomeAlt2>
+      </Icon>
+      </Link>
+
+      <Link to="/assuntos" ><Icon>
         <BiBook></BiBook>
       </Icon>
-      </a>
+      </Link>
 
-      <a href=""><Icon>
+      <a href="https://wa.me/5581971066216?text=Me+helpa+com+codigo" target="_blank"><Icon>
         <BiLinkAlt></BiLinkAlt>
       </Icon>
       </a>
@@ -54,4 +60,4 @@ function SideBar() {
   )
 }
 
-export default SideBar
+export default SideBarComponent
