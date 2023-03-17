@@ -1,0 +1,30 @@
+ul {
+
+                     font-size: 1.5rem;
+                     width: 5vw;
+                     height: 100vh;
+                     display: flex;
+                     flex-direction: column;
+                     background-color: rgb(34, 32, 28);
+                     list-style: none;
+}
+
+li {
+                     width: 5vw;
+                     height: 30px;
+                     color: white;
+                     padding-block: 20px;
+                     margin-top: 1rem;
+                     text-align: center;
+                     transition: 0.5s;
+                     cursor: pointer;
+}
+
+li:hover{
+                     color: white;
+                     background-color: rgb(43, 41, 41);
+}
+
+li *{
+                     color: white;
+}
