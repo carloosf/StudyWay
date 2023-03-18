@@ -13,6 +13,7 @@ const SideBar = styled.ul`
   flex-direction: column;
   background-color: rgb(34, 32, 28);
   list-style: none;
+  flex-shrink: 0;
   `
 
 const Icon = styled.li`
