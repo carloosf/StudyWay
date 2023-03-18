@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
 import SideBarComponent from './components/SideBar'
 const App = () => {
 
@@ -6,6 +6,7 @@ const App = () => {
     <div className="App">
       <SideBarComponent />
 
+      <Outlet />
     </div>
   )
 }

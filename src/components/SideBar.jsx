@@ -41,17 +41,19 @@ function SideBarComponent() {
     <SideBar className="SideBar">
 
       <Link to="/" ><Icon>
-        <BiHomeAlt2></BiHomeAlt2>
+        <BiHomeAlt2 />
       </Icon>
       </Link>
 
-      <Link to="/assuntos" ><Icon>
-        <BiBook></BiBook>
+      <Link to="/assuntos
+      
+      " ><Icon>
+        <BiBook />
       </Icon>
       </Link>
 
       <a href="https://wa.me/5581971066216?text=Me+helpa+com+codigo" target="_blank"><Icon>
-        <BiLinkAlt></BiLinkAlt>
+        <BiLinkAlt />
       </Icon>
       </a>
 
