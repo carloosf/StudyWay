@@ -26,22 +26,22 @@ const Assuntos = () => {
   const listaConteudo = [
     {
       Aula: "Introdução à HTML",
-      thumb: "src/assets/thumb-html.png" ,
+      thumb: "src/assets/thumb-html.png",
       description: "Este é um exemplo de como usar o componente CardThumbnail.",
     },
     {
       Aula: "Introdução à CSS",
-      thumb: "src/assets/thumb-css.png" ,
+      thumb: "src/assets/thumb-css.png",
       description: "Este é um exemplo de como usar o componente CardThumbnail.",
     },
     {
       Aula: "Introdução à CSS",
-      thumb: "src/assets/thumb-js.png" ,
+      thumb: "src/assets/thumb-js.png",
       description: "Este é um exemplo de como usar o componente CardThumbnail.",
     },
     {
       Aula: "Introdução à ReactJS",
-      thumb: "src/assets/thumb-react.png" ,
+      thumb: "src/assets/thumb-react.png",
       description: "Este é um exemplo de como usar o componente CardThumbnail.",
     },
 

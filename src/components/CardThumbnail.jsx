@@ -28,13 +28,13 @@ const Description = styled.p`
 `;
 
 const CardThumbnail = ({ imageSrc, title, description }) => {
-                     return (
-                                          <Card>
-                                                               <Thumbnail src={imageSrc} alt={title} />
-                                                               <Title>{title}</Title>
-                                                               <Description>{description}</Description>
-                                          </Card>
-                     );
+  return (
+    <Card>
+      <Thumbnail src={imageSrc} alt={title} />
+      <Title>{title}</Title>
+      <Description>{description}</Description>
+    </Card>
+  );
 };
 
 export default CardThumbnail;
